@@ -1,0 +1,93 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  /* background-color: url('/public/assets/bghome.jpg'); */
+  overflow-x: hidden;
+}
+
+
+.btmborder::before{
+  width: 0%;
+  height: 3px;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transition: all 0.3s linear ;
+}
+.btmborderD::before{
+  width: 0%;
+  height: 2px;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s linear ;
+}
+.btmborder:hover::before, .btmborderD:hover::before{
+  background-color:   #979797;
+  width: 100%;
+  cursor: pointer;
+}
+.activeNav::before{
+  background-color: #fff;
+  width: 100%;
+}
+
+.bglack{
+  width: 830px;
+  height: 96px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(25px);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.befores::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 0%;
+  width: 0%;
+  z-index: 3;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s linear;
+}
+.befores:hover::before{
+  height: 450px;
+  width: 450px;
+}
+.smlNav{
+  background-color: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+  transition: all 0.3s linear;
+  opacity: 1;
+}
