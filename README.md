@@ -1,22 +1,13 @@
 # Space Tourism Website 🚀
 
-Explore the cosmos with our sleek and responsive Space Tourism website, built with ReactJS and Tailwind CSS. This project is a submission for the Frontend Mentor Challenge.
+🚀 Explore the cosmos with our sleek and responsive Space Tourism website, crafted with ReactJS and Tailwind CSS. This stellar project is our submission for the Frontend Mentor Challenge. 🌌✨
 
-## Table of Contents
-
-- [Demo](#demo)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Demo
 
-[Live Demo](#) *(Add the link to your live demo)*
+[Live Demo](https://space-tourism-teal-omega.vercel.app/) *(Explore the Space Tourism website)*
 
-![Space Tourism](screenshot.png) *(Add a screenshot of your website)*
+![Design preview for the Space tourism website coding challenge](./preview.jpg)
 
 ## Features
 
